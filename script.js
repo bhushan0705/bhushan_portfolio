@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 function togglePopup() {
   const popup = document.getElementById('popup');
   const body = document.body;
@@ -27,8 +26,6 @@ function togglePopup2() {
       body.style.overflow = 'hidden';
   }
 }
-
-=======
 function togglePopup() {
   const popup = document.getElementById('popup');
   const body = document.body;
@@ -57,5 +54,3 @@ function togglePopup2() {
       body.style.overflow = 'hidden';
   }
 }
-
->>>>>>> master
