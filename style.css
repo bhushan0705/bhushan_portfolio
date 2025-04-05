@@ -715,7 +715,7 @@ background-color: pink;
 }
 
 
-.skills_img img{
+/* .skills_img img{
     height: 100px;
     width: 100px;
 }
@@ -723,6 +723,15 @@ background-color: pink;
     margin-top: 20px;
     height: 80px;
     width: 80px;
+} */
+
+.skills_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills_img img{
+    height: 100px;
 }
 
 .git a:hover{
