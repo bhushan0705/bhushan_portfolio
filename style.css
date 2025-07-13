@@ -279,21 +279,14 @@ nav{
     margin-top: 30px;
 }
 
-.skills_img ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 60px;
-}
-
-.skills_img li{
+.skills_img img{
     background-color: transparent;
     color: white;
     text-align: center;
     transition: all 0.5s ease-in;
 }
 
-.skills_img li:hover{
+.skills_img img:hover{
     cursor: pointer;
     transform: scale(1.06);
 }
@@ -732,6 +725,16 @@ background-color: pink;
     text-decoration: underline;
 }
 
+.skills_grid{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 /* ----------------- responsive --------------- */
 @media screen and (max-width:785px){
     .navbar{
@@ -774,6 +777,15 @@ background-color: pink;
     .contact_details {
         flex-direction: column;
         font-size: 15px;
+    }
+    .skills_grid {
+            display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+
+      
     }
 .intro p {
     font-size: 14px;
@@ -819,8 +831,5 @@ background-color: pink;
         top: 70px;
         left: 100px;
     }
-    .skills_img ul {
-        justify-content: center;
-        gap: 20px;
-    }
+ 
 }
